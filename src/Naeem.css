@@ -1,0 +1,877 @@
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&family=Nosifer&family=Ruge+Boogie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&family=Ga+Maamli&family=Nosifer&family=Ruge+Boogie&family=Silkscreen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&family=Ga+Maamli&family=Nosifer&family=Ruge+Boogie&family=Shrikhand&family=Silkscreen:wght@400;700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    background: black;
+    color: white;
+}
+/* Navigation bar */
+.Header{
+    position: sticky;
+    width:100%;
+    height:70px;
+    top:0px;
+    left:0px;
+    display: flex;
+    justify-content: space-between;
+    padding:15px 5%;
+    background: #000000;
+    z-index:100;
+    border-bottom:2px solid white;
+    border-radius:10px;
+
+}
+.checkbtn{
+    font-size: 20px;
+    float: right;
+    line-height: 30px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+    background: none;
+}
+.logo{
+    background: none;
+    font-size: 35px;
+    font-family: "Faster One", system-ui;
+    margin-top: -7px;
+    color:orange;
+}
+.navbar{
+    background: none;
+}
+.navbar a{
+    background: none;
+    font-size: 30px;
+    padding-left: 50px;
+    font-family:  "Ga Maamli", sans-serif;  
+    transition: all 0.5s ease;
+    color:#DDDBCB;
+}
+.navbar a:hover{
+    color: orange;
+}
+.Social-icon{
+    display: none;
+}
+
+/* HOME */
+
+.Home{
+    width:100%;
+    height:525px;
+    position: relative;
+    overflow: hidden;
+}
+.Home h1{
+    position: absolute;
+    right: 500px;
+    top: 150px;
+    font-size:30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(255, 255, 255, 0.792);
+    background: none;
+}
+.Home h2{
+    position: absolute;
+    right:150px;
+    top: 310px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    background:none;
+    color: orange;
+    font-weight: 500;
+}
+span{
+    position: absolute;
+    right: 150px;
+    top: 170px;
+    font-size: 110px;
+    font-family: "Shrikhand", serif;
+    background: none;
+    color:orange;
+}
+.Photo{
+    width:500px;
+    height:400;
+    position: absolute;
+    left:50px;
+    top:-150px;
+}
+.butt1{
+    font-size:25px;
+    font-family: 'Courier New', Courier, monospace;
+    border:3px solid orange;
+    padding:5px;
+    border-radius:10px;
+    position: absolute;
+    right:400px;
+    top: 400px;
+    color: rgba(255, 255, 255, 0.792);
+    transition: 0.5s ease;
+}
+.butt2{
+    font-size:25px;
+    font-family: 'Courier New', Courier, monospace;
+    border:3px solid orange;
+    padding:5px;
+    border-radius:10px;
+    position: absolute;
+    right:200px;
+    top: 400px;
+    color: rgba(255, 255, 255, 0.792);
+    transition: 0.5s ease;
+}
+.butt1:hover{
+    transform: scale(1.2);
+    background: orange;
+    color:black;
+    font-weight: 600;
+}
+.butt2:hover{
+    transform: scale(1.2);
+    background: orange;
+    color:black;
+    font-weight: 600;
+}
+
+/*ABOUT SECTION*/
+
+.About{
+    position: relative;
+    width:100%;
+    height:100vh;
+    padding-top:100px;
+}
+.div1{
+   float: left;
+   width:50%;
+   height:100vh;
+   overflow: hidden;
+}
+.content{
+    width:50%;
+    height:100vh;
+    float:left;
+}
+.content h1{
+    font-size:60px;
+    text-align: center;
+    font-family: "Shrikhand", serif;
+    color: rgba(255, 255, 255, 0.792);
+    padding-top:20px;
+}
+.content h2{
+    font-size:20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color:orange;
+}
+.content p{
+    font-size:18px;
+    text-transform: capitalize;
+    text-align: justify;
+    padding:10px 30px 0px 30px;
+    line-height:1.5em;
+    color: rgba(255, 255, 255, 0.511);
+}
+
+/* Gallery Section*/
+
+
+.Gallery{
+    position: relative;
+    width:100%;
+    min-height:120vh;
+    top:0px;
+    padding-bottom:100px;
+}
+.Gallery h1{
+    text-align: center;
+    font-family:"Shrikhand", serif;
+    font-size:60px;
+    color: rgba(255, 255, 255, 0.792);
+}
+.Gallery h2{
+    text-align: center;
+    font-size:20px;
+    color: orange;
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom:50px;
+}
+.SEC-HEADING{
+    float: left;
+    width:50%;
+    min-height:120vh;
+    padding:40px 20px 20px 20px;
+}
+.SEC-HEADING h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:50px;
+    font-weight:700;
+    color:orange;
+
+}
+.SEC-HEADING p{
+    font-size:18px;
+    color: rgba(255, 255, 255, 0.511);
+    text-align: justify;
+    line-height:1.6;
+    padding-left:20px;
+}
+.SEC-PIC{
+    float:left;
+    width:50%;
+    min-height:120vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding:50px 20px 50px 20px;
+
+}
+.G-P1{
+    width:60%;
+    height:250px;
+    border:3px solid white;
+    overflow: hidden;
+    margin:0px 0px 20px 70px;
+    border-radius:20px;
+    transition:all 0.5s ease;
+}
+.G-P1:hover{
+    transform: scale(1.1);
+}
+.G-P2{
+    width:60%;
+    height:250px;
+    border:3px solid white;
+    overflow: hidden;
+    margin:0px 0px 20px 70px;
+    border-radius:20px;
+    transition:all 0.5s ease;
+}
+.G-P2:hover{
+    transform: scale(1.1);
+}
+.G-P3{
+    width:60%;
+    height:250px;
+    border:3px solid white;
+    overflow: hidden;
+    margin:0px 0px 20px 100px;
+    border-radius:20px;
+    transition:all 0.5s ease;
+}
+.G-P3:hover{
+    transform: scale(1.1);
+}
+.G-P4{
+    width:60%;
+    height:250px;
+    border:3px solid white;
+    overflow: hidden;
+    margin:0px 0px 20px 100px;
+    border-radius:20px;
+    transition:all 0.5s ease;
+}
+.G-P4:hover{
+    transform: scale(1.1);
+}
+.G-P5{
+    width:60%;
+    height:250px;
+    border:3px solid white;
+    overflow: hidden;
+    margin:0px 0px 20px 70px;
+    border-radius:20px;
+    transition:all 0.5s ease;
+}
+.G-P5:hover{
+    transform: scale(1.1);
+}
+.G-P6{
+    width:60%;
+    height:250px;
+    border:3px solid white;
+    overflow: hidden;
+    margin:0px 0px 20px 70px;
+    border-radius:20px;
+    transition:all 0.5s ease;
+}
+.G-P6:hover{
+    transform: scale(1.1);
+}
+.Gallery::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+/*Skills Section*/
+
+.Skills{
+    width:100%;
+    min-height:100vh;
+    position: relative;
+    margin-bottom:100px;
+}
+
+/* CHILD 1 (CARDS SECTIONS) */
+.S-cont{
+    float: left;
+    width:50%;
+    min-height:100vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+/* FIRST CARD */
+.card1{
+    width:85%;
+    height:45vh;
+    border:2px solid white;
+    padding:10px;
+    margin:30px 0px 0px 10px;
+    border-radius:20px;
+    transition: all 0.5s ease;
+}
+.card1:hover{
+    transform: scale(0.9);
+    box-shadow:5px 0px 10px white;
+}
+.card1 h1{
+    font-size:30px;
+    font-family: cursive;
+    font-weight: 900;
+    background: none;
+    margin-top:-50px;
+    padding-bottom:10px;
+    color:orange;   
+}
+.card1 h2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:25px;
+    color: orange;
+}
+
+.card1 p{
+    text-align: justify;
+    font-size:14px;
+    background: none;
+    color: rgba(255, 255, 255, 0.511);
+    transition:0.5s ease;
+}
+.card1 p:hover{
+    color:white;
+}
+
+/* SECOND CARD */
+.card2{
+    width:85%;
+    height:45vh;
+    border:2px solid white;
+    padding:10px;
+    margin:30px 10px 0px 0px;
+    border-radius:20px;
+    transition: all 0.5s ease;
+}
+.card2:hover{
+    transform: scale(0.9);
+    box-shadow:5px 0px 10px white;
+}
+.card2 h1{
+    font-size:30px;
+    font-family: cursive;
+    font-weight: 900;
+    background: none;
+    margin-top:-50px;
+    padding-bottom:10px;
+    color:orange;
+}
+.card2 h2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:25px;
+    color: orange;
+}
+.card2 p{
+    text-align: justify;
+    font-size:14px;
+    background: none;
+    color: rgba(255, 255, 255, 0.511);
+    transition:0.5s ease;
+}
+.card2 p:hover{
+    color:white;
+}
+
+/* THIRD CARD */
+.card3{
+    width:85%;
+    height:45vh;
+    border:2px solid white;
+    padding:10px;
+    margin:30px 0px 0px 10px;
+    border-radius:20px;
+    transition: all 0.5s ease;
+}
+.card3:hover{
+    transform: scale(0.9);
+    box-shadow:5px 0px 10px white;
+}
+.card3 h1{
+    font-size:30px;
+    font-family: cursive;
+    font-weight: 900;
+    background: none;
+    margin-top:-50px;
+    padding-bottom:10px;
+    color:orange;
+}
+.card3 h2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:25px;
+    color: orange;
+}
+
+.card3 p{
+    text-align: justify;
+    font-size:14px;
+    background: none;
+    color: rgba(255, 255, 255, 0.511);
+    transition:0.5s ease;
+}
+.card3 p:hover{
+    color:white;
+}
+
+/* FOURTH CARD */
+.card4{
+    width:85%;
+    height:45vh;
+    border:2px solid white;
+    padding:10px;
+    margin:30px 0px 0px 0px;
+    border-radius:20px;
+    transition: all 0.5s ease;
+}
+.card4:hover{
+    transform: scale(0.9);
+    box-shadow:5px 0px 10px white;
+}
+.card4 h1{
+    font-size:30px;
+    font-family: cursive;
+    font-weight: 900;
+    background: none;
+    margin-top:-50px;
+    padding-bottom:10px;
+    color:orange;
+}
+.card4 h2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:25px;
+    color: orange;
+}
+
+.card4 p{
+    text-align: justify;
+    font-size:14px;
+    background: none;
+    color: rgba(255, 255, 255, 0.511);
+    transition:0.5s ease;
+}
+.card4 p:hover{
+    color:white;
+}
+
+/* CHILD 2 (PARA SECTION) */
+
+.S-para{
+    float: left;
+    width:50%;
+    min-height:100vh;
+}
+.S-para h1{
+    font-size:60px;
+    font-family: "Shrikhand", serif;
+    text-align: center;
+    padding-top:30px;
+    color: rgba(255, 255, 255, 0.792);
+}
+.S-para h2{
+    font-size:25px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color:orange;
+    padding-top:10px;
+    
+}
+.HELLO{
+    width:550px;
+    height:550px;
+    margin:-90px 30px 0px 30px;
+    background: none;
+    
+}
+
+/*  CONTACT SECTION */
+
+.Contact{
+    width:100%;
+    height:600px;
+    position: relative;
+    margin-bottom:50px;
+}
+.C-DIV1{
+    width:49%;
+    height:600px;
+    float:left;
+}
+.C-DIV1 h1{
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+    font-family: "Shrikhand", serif;
+    color: rgba(255, 255, 255, 0.792);
+}
+.C-DIV1 p{
+    font-size:18px;
+    text-align: justify;
+    padding:0px 20px 0px 20px;
+    color:rgba(255, 255, 255, 0.511);
+}
+.C-DIV2{
+    width:48%;
+    height:600px;
+    float:left;
+    margin:10px;
+}
+.form{
+    width:100%;
+    height:550px;
+    padding:50px 20px 30px 20px;
+    border: 2px  solid black;
+    border-radius:20px;
+    box-shadow:0px 0px 10px rgba(72, 71, 71, 0.804);
+}
+input{
+    border:2px solid orange;
+    border-radius:20px;
+}
+label{
+    font-size:18px;
+    color: orange;
+    font-family: 'Courier New', Courier, monospace;
+}
+.send-butt{
+    font-size:25px;
+    font-weight: bold;
+    border:2px solid orange;
+    padding:3px;
+    border-radius:20px;
+    font-family: 'Courier New', Courier, monospace;
+    width:50%;
+    text-align: center;
+    justify-content: center;
+    margin:20px 0px 0px 150px;
+    transition:all 0.5s ease;
+}
+.send-butt:hover{
+    transform: scale(1.1);
+    background: orange;
+    color:black;
+
+}
+
+/* FOOTER SECTION  */
+
+.footer{
+    width:100%;
+    height:100px;
+    position: relative;
+    border-top:1px solid white;
+    display: flex;
+    border-radius:5px;
+}
+.footer h1{
+    font-size: 35px;
+    font-family: "Faster One", system-ui;
+    color:orange;
+    padding:20px 0px 0px 20px;
+}
+.footer p{
+    position: absolute;
+    font-size:18px;
+    color: orange;    
+    right:10px;
+    margin-top:40px;
+}
+
+
+
+
+/* Responsive css for Mobile */
+@media  only screen and (max-width:768px){
+
+    /* Responsive Header for Mobile */
+    .checkbtn{
+        display: block;
+        background: none;
+        margin-top:5px;
+    }
+    i{
+        background: none;
+    }
+    .Header{
+        width:100%;
+        position: fixed;
+        border-radius: 5px;
+    }
+    .logo{
+        margin-right:-25px;
+    }
+    .navbar{
+        position: fixed;
+        height:100vh;
+        width: 100%;
+        background:black;
+        left: -100%;
+        top:70px;
+        text-align: center;
+        line-height: 70px;
+        transition: all 0.5s;
+        color: white;
+        z-index:2;
+    }
+    .navbar a{
+        width:100%;
+        display: block;
+
+    }
+    #check:checked ~ .navbar{
+        left: 0;
+    }
+
+    /* SOcial Icon FOR MOBILE */
+    .Social-icon{
+        display:flex;
+        width:60%;
+        border:2px solid black;
+        border-radius:10px;
+        box-shadow:0px 0px 10px yellow;
+        margin:50px 0px 0px 180px;
+    }
+
+    .Social-icon a i{
+        font-size:40px;
+        margin-left:-50px;
+        color:rgba(255, 255, 255, 0.511);
+    }
+    
+    /* HOME SECTION  */
+     .Home{
+        top:50px;
+        width:100%;
+        margin-bottom:50px;
+     }
+    .Home h1{
+        background: none;
+        right:300px;
+        font-size:22px;
+        top:160px;
+    }
+    .Home h2{
+        right:50px;
+        top:260px;
+        font-size:20px;
+    }
+    span{
+        right:50px;
+        font-size:80px;
+    }
+
+    .Photo{
+         left:-80px;
+         top:-150px; 
+    }
+    .butt1{
+        font-size:20px;
+        right:240px;
+        top:350px;
+    }
+    .butt2{
+        font-size:20px;
+        right:50px;
+        top:350px;
+    }
+    .butt1:hover{
+        transform: none;
+        background: none;
+        color:white;
+        font-weight: normal;
+    }
+    .butt2:hover{
+        transform: none;
+        background: none;
+        color:white;
+        font-weight: normal;
+    }
+
+    /* ABOUT SECTION */
+    .About{
+        bottom:0px;
+        height:90vh;
+    }
+   .div1{
+      padding:50px 10px 0px 0px;
+      width:50%;
+      height: auto;
+   }
+   .content h1{
+    font-size:42px;
+    padding-right:10px;
+   }
+   .content h2{
+    font-size:16px;
+   }
+   .content p{
+    font-size:12px;
+    width:100%;
+    padding:10px 10px 0px 0px;
+   }
+
+   /* PORTFOLIO SECTION */
+    .Gallery{
+        top:-60px;
+        padding-bottom:50px;
+    }
+   .Gallery h1{
+    font-size:42px;
+   }
+   .SEC-HEADING{
+    padding:20px 0px 50px 20px;
+   }
+   .SEC-HEADING h1{
+    font-size:32px;
+   }
+   .SEC-HEADING p{
+      font-size:16px;
+      padding:0px;
+   }
+   .G-P1:hover{
+    transform: none;
+   }
+   .G-P2:hover{
+    transform: none;
+   }
+   .G-P3:hover{
+    transform: none;
+   }
+   .G-P4:hover{
+    transform: none;
+   }
+   .G-P5:hover{
+    transform: none;
+   }
+   .G-P6:hover{
+    transform: none;
+   }
+
+   /* SKILLS SECTION */
+
+   /* CARD 1 */
+   .card1 h2{
+      font-size:22px;
+      margin-top:-10px;
+      font-weight: 600;
+   }
+   .card1 p{
+    font-size:12px;
+    line-height:1.3em;
+    color: #DDDBCB;
+   }
+   .card1:hover{
+    transform: none;
+    box-shadow: none;
+   }
+
+   /*CARD 2  */
+   .card2 h2{
+    font-size:22px;
+    margin-top:-10px;
+    font-weight: 600;
+ }
+    .card2 p{
+    font-size:12px;
+    line-height:1.3em;
+    color: #DDDBCB;
+ }
+   .card2:hover{
+    transform: none;
+    box-shadow: none;
+ }
+ /* CARD 3 */
+ 
+   .card3 h2{
+    font-size:22px;
+    margin-top:-10px;
+    font-weight: 600;
+ }
+    .card3 p{
+    font-size:12px;
+    line-height:1.3em;
+    color: #DDDBCB;
+ }
+   .card3:hover{
+    transform: none;
+    box-shadow: none;
+ }
+
+ /* CARD 4 */
+
+   .card4 h2{
+    font-size:22px;
+    margin-top:-10px;
+    font-weight: 600;
+ }
+   .card4 p{
+    font-size:12px;
+    line-height:1.3em;
+    color: #DDDBCB;
+ }
+    .card4:hover{
+    transform: none;
+    box-shadow: none;
+ }
+
+ /* CONTACT SECTION */
+    .form{
+        height:560px;
+    }
+    .C-DIV1 h1{
+      font-size:31px;
+    }
+     .responsive i{
+        font-size:30px;
+        padding:5px;
+        margin-left:20px;
+        position: relative;
+        top:-50px;
+        left:-70px;
+        border:2px solid orange;
+        border-radius:20px;
+        color:white;
+     }
+    
+}
+
+
