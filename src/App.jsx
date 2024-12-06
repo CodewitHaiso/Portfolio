@@ -35,7 +35,7 @@ function Naeem() {
 
           {/* Home section */}
 
-          <section className='Home'>
+          <section className='Home' id='Home'>
             <img src={PIC} alt="Poster" className='Photo' />
             <h1>'NAEEM'</h1>
             <span>HASSAN</span>
@@ -46,7 +46,7 @@ function Naeem() {
 
              {/* About section */}
 
-          <div className='About'>
+          <div className='About' id='About'>
              <div className='div1'>
                 <img src="./assets/Pictures/picture.png" alt="Side-pic"  className='p-20 mt-10'/>
              </div>
@@ -61,7 +61,7 @@ function Naeem() {
           
               {/* Gallery section */}
 
-          <section className='Gallery'>
+          <section className='Gallery' id='Gallery'>
           <h1>PORTFOLIO</h1>
           <h2><i class="fa-regular fa-image pr-3 text-[#FFA500]"></i>GALLERY</h2>
           <div className='SEC-HEADING'>
@@ -81,10 +81,10 @@ function Naeem() {
                </div>
           </section>
           
-
+            
           {/* Skills Section */}
 
-          <div className='Skills'>    {/* PARENT DIV */}
+          <div className='Skills' id='skill'>    {/* PARENT DIV */}
               
               {/* FIRST CHILD (CARD SECTION) */}
 
@@ -122,7 +122,7 @@ function Naeem() {
 
           {/* CONTACT SECTION */}
              
-             <section className='Contact'>
+             <section className='Contact' id='Contact'>
               <div className='C-DIV1'>
                <h1>DO YOU HAVE WORK?<br></br>REACH OUT TO ME!</h1>
                <p>Looking for someone reliable to get your work done? I’m here to help! If you have any tasks or projects, don’t hesitate to reach out.</p>

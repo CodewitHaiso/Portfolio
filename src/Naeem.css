@@ -9,6 +9,9 @@
     background: black;
     color: white;
 }
+html {
+    scroll-behavior: smooth;
+}
 /* Navigation bar */
 .Header{
     position: sticky;
@@ -190,7 +193,6 @@ span{
     width:100%;
     min-height:120vh;
     top:0px;
-    padding-bottom:100px;
 }
 .Gallery h1{
     text-align: center;
@@ -319,6 +321,7 @@ span{
     width:100%;
     min-height:100vh;
     position: relative;
+    padding-top:100px;
     margin-bottom:100px;
 }
 
@@ -871,6 +874,13 @@ label{
         border-radius:20px;
         color:white;
      }
+     .send-butt{
+        margin:20px 0px 0px 100px;
+        background:orange;
+        color: black;
+
+     }
+     
     
 }
 
