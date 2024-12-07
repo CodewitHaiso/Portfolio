@@ -2,7 +2,6 @@ import './css/all.min.css'
 import './css/fontawesome.min.css'
 import './Naeem.css'
 import './function.js'
-import PIC from '../assets/Pictures/Poster.png'
 
 function Naeem() {
   return (
@@ -37,7 +36,7 @@ function Naeem() {
           {/* Home section */}
           <section id='Home'></section>
           <section className='Home'>
-            <img src={PIC} alt="Poster" className='Photo' />
+            <img src='./pictures/Poster.png'  alt="Poster" className='Photo' />
             <h1>'NAEEM'</h1>
             <span>HASSAN</span>
             <h2>'REACT WEB DEVELOPER'</h2>
@@ -49,7 +48,7 @@ function Naeem() {
           <section id='About'></section>
           <div className='About' >
              <div className='div1'>
-                <img src="./assets/Pictures/picture.png" alt="Side-pic"  className='p-20 mt-10'/>
+                <img src="./pictures/picture.png" alt="Side-pic"  className='p-20 mt-10'/>
              </div>
              <div className='content'> 
                 <h1>MY BIOGRAPHY</h1>
@@ -73,12 +72,12 @@ function Naeem() {
                 As I continue to grow as a developer, this mindset reminds me that progress happens incrementally. Each line of code contributes to a larger vision, and with dedication and creativity, I strive to make an impact in the ever-evolving world of web development.</p>
           </div>
                <div className='SEC-PIC'>
-               <div className='G-P1'> <img src="./assets/Pictures/P1.jpg" alt="PIC1" /></div>
-               <div className='G-P2'> <img src="./assets/Pictures/P2.jpg" alt="PIC2" /></div>
-               <div className='G-P3'> <img src="./assets/Pictures/P3.jpg" alt="PIC3" /></div>
-               <div className='G-P4'> <img src="./assets/Pictures/P4.jpg" alt="PIC4" /></div>
-               <div className='G-P5'> <img src="./assets/Pictures/P5.jpg" alt="PIC5" /></div>
-               <div className='G-P6'> <img src="./assets/Pictures/P6.jpg" alt="PIC6" /></div>
+               <div className='G-P1'> <img src="./pictures/P1.jpg" alt="PIC1" /></div>
+               <div className='G-P2'> <img src="./pictures/P2.jpg" alt="PIC2" /></div>
+               <div className='G-P3'> <img src="./pictures/P3.jpg" alt="PIC3" /></div>
+               <div className='G-P4'> <img src="./pictures/P4.jpg" alt="PIC4" /></div>
+               <div className='G-P5'> <img src="./pictures/P5.jpg" alt="PIC5" /></div>
+               <div className='G-P6'> <img src="./pictures/P6.jpg" alt="PIC6" /></div>
                </div>
           </section>
           
@@ -117,7 +116,7 @@ function Naeem() {
             <div className='S-para'>
               <h1>THING'S THAT I CAN DO</h1>
               <h2><i class="fa-solid fa-gear pr-3 text-[#FFA500]"></i>SKILLS</h2>
-              <img src="./assets/Pictures/Skills poster.png" alt="S-Poster" className='HELLO' />
+              <img src="./pictures/Skills poster.png" alt="S-Poster" className='HELLO' />
             </div>
           </div>
 
