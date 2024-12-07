@@ -7,7 +7,7 @@ Welcome to my React portfolio template, now available for purchase! This is a fu
 
  ### Demo Screeshots
 
-![Portfolio Desktop Demo](./pictures/Demo.png "Desktop Demo")
+![Portfolio Desktop Demo](/public/pictures/Demo.png "Desktop Demo")
 
 ## Table of Contents
 
