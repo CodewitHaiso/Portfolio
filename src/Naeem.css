@@ -799,7 +799,7 @@ label{
    }
    .card1 p{
     font-size:12px;
-    line-height:1.3em;
+    line-height:1.1em;
     color: #DDDBCB;
    }
    .card1:hover{
@@ -815,7 +815,7 @@ label{
  }
     .card2 p{
     font-size:12px;
-    line-height:1.3em;
+    line-height:1.1em;
     color: #DDDBCB;
  }
    .card2:hover{
@@ -831,7 +831,7 @@ label{
  }
     .card3 p{
     font-size:12px;
-    line-height:1.3em;
+    line-height:1.1em;
     color: #DDDBCB;
  }
    .card3:hover{
@@ -848,7 +848,7 @@ label{
  }
    .card4 p{
     font-size:12px;
-    line-height:1.3em;
+    line-height:1.1em;
     color: #DDDBCB;
  }
     .card4:hover{
@@ -861,7 +861,7 @@ label{
         height:560px;
     }
     .C-DIV1 h1{
-      font-size:31px;
+      font-size:30px;
     }
      .responsive i{
         font-size:30px;

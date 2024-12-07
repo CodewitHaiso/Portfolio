@@ -1,6 +1,7 @@
 import './css/all.min.css'
 import './css/fontawesome.min.css'
 import './Naeem.css'
+import './function.js'
 import PIC from '../assets/Pictures/Poster.png'
 
 function Naeem() {
@@ -14,12 +15,12 @@ function Naeem() {
               <i className='fas fa-bars'></i>
             </label>
             <a href="#" className='logo'>HAISO</a>
-            <nav className='navbar'>
+            <nav className='navbar active'>
               <a href="#Home">HOME</a>
-              <a href="#About">ABOUT</a>
-              <a href="#Gallery">GALLERY</a>
-              <a href="#skill">SKILLS</a>
-              <a href="#Contact">CONTACT</a>
+              <a href="#About" >ABOUT</a>
+              <a href="#Gallery" >GALLERY</a>
+              <a href="#skill"  >SKILLS</a>
+              <a href="#Contact"  >CONTACT</a>
 
               {/* Social Icon for Mobile Responsive navbar */}
 
@@ -34,8 +35,8 @@ function Naeem() {
           </div>
 
           {/* Home section */}
-
-          <section className='Home' id='Home'>
+          <section id='Home'></section>
+          <section className='Home'>
             <img src={PIC} alt="Poster" className='Photo' />
             <h1>'NAEEM'</h1>
             <span>HASSAN</span>
@@ -45,8 +46,8 @@ function Naeem() {
           </section>
 
              {/* About section */}
-
-          <div className='About' id='About'>
+          <section id='About'></section>
+          <div className='About' >
              <div className='div1'>
                 <img src="./assets/Pictures/picture.png" alt="Side-pic"  className='p-20 mt-10'/>
              </div>
@@ -60,8 +61,8 @@ function Naeem() {
           </div>
           
               {/* Gallery section */}
-
-          <section className='Gallery' id='Gallery'>
+          <section id='Gallery'></section>
+          <section className='Gallery'>
           <h1>PORTFOLIO</h1>
           <h2><i class="fa-regular fa-image pr-3 text-[#FFA500]"></i>GALLERY</h2>
           <div className='SEC-HEADING'>
@@ -83,8 +84,8 @@ function Naeem() {
           
             
           {/* Skills Section */}
-
-          <div className='Skills' id='skill'>    {/* PARENT DIV */}
+          <section id='skill'></section>
+          <div className='Skills' >    {/* PARENT DIV */}
               
               {/* FIRST CHILD (CARD SECTION) */}
 
@@ -121,8 +122,8 @@ function Naeem() {
           </div>
 
           {/* CONTACT SECTION */}
-             
-             <section className='Contact' id='Contact'>
+          <section id='Contact'></section>
+             <section className='Contact' >
               <div className='C-DIV1'>
                <h1>DO YOU HAVE WORK?<br></br>REACH OUT TO ME!</h1>
                <p>Looking for someone reliable to get your work done? I’m here to help! If you have any tasks or projects, don’t hesitate to reach out.</p>
