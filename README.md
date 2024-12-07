@@ -1,7 +1,13 @@
-
-# React Portfolio - For Sale
+<h2 align="center">Personal Portfolio Website</h2>
 
 Welcome to my React portfolio template, now available for purchase! This is a fully responsive, customizable portfolio built with React, designed to showcase your skills, projects, and experience. Whether you're a web developer, designer, or any other professional looking to establish an online presence, this portfolio template is perfect for presenting your work in a clean and modern way.
+
+ <a href="https://CodewitHaiso.github.io/Portfolio/"><strong>➥ Live Demo</strong></a>
+
+
+ ### Demo Screeshots
+
+![Portfolio Desktop Demo](./pictures/Demo.png "Desktop Demo")
 
 ## Table of Contents
 
@@ -10,7 +16,7 @@ Welcome to my React portfolio template, now available for purchase! This is a fu
 - [Customization Options](#customization-options)
 - [Additional Notes](#additional-notes)
 - [Technologies Used](#technologies-used)
-- [Contact](#Contact info)
+- [Contact](#Contact-info)
 
 ## Features
 
@@ -33,9 +39,9 @@ Follow the steps below to get the project up and running on your local machine.
 
 1. **Clone the repository**:
 
-   git clone https://github.com/your-username/react-portfolio.git
+   git clone https://github.com/CodewitHaiso/Portfolio.git
 
-   cd react-portfolio
+   cd Portfolio
 
 -Install the dependencies: Run the following command to install all necessary packages:
 
@@ -91,7 +97,8 @@ Font Awesome: For icons used in the portfolio.
 **Contact**
 
 You can reach me through the following channels:
+Email: reactwithassan@gmail.com
 
-Email: reactwithassan.com
-LinkedIn: https://www.linkedin.com/in/naeemhassan0/
-GitHub: https://github.com/CodewitHaiso
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/naeemhassan0/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/CodewitHaiso)
+![image](https://github.com/user-attachments/assets/cf30e594-bddc-4e39-ad4f-34933ef6b097)
