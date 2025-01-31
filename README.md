@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/public/pictures/gb2.png" alt="Github Demo" title="Github Demo">
+  <img src="/public/pictures/gb3.png" alt="Github Demo" title="Github Demo">
 </p>
 <h2 align="center">Personal Portfolio Website</h2>
 
