@@ -1,4 +1,4 @@
-![Github Logo](/public/pictures/nh.png "Github Demo")
+![Github Logo](/public/pictures/gb logo.jpeg "Github Demo")
 
 
 <h2 align="center">Personal Portfolio Website</h2>
